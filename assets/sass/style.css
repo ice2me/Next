@@ -1,0 +1,198 @@
+.container {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-color: pink;
+  overflow-x: auto;
+}
+
+.header {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+}
+.header a {
+  margin: 30px;
+  color: #999;
+}
+
+.footer {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+}
+.footer h1 {
+  font-size: 20px;
+  color: #111;
+}
+
+.blog {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+.blog h1 {
+  width: inherit;
+  font-size: 40px;
+  text-align: center;
+  margin: 30px 0;
+}
+.blog ul {
+  padding: 0 20px;
+  overflow-x: auto;
+}
+.blog ul li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.blog ul li span {
+  margin-right: 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  transition: 0.1s forward;
+}
+
+*:before, *:after {
+  box-sizing: border-box;
+}
+
+*:disabled {
+  opacity: 0.5;
+}
+
+* ul {
+  padding: 0;
+  margin: 0;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  line-height: 1;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+  outline: none;
+  scroll-behavior: smooth !important;
+  background: #fff;
+  color: rgb(41, 47, 54);
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+input::-webkit-input-placeholder {
+  color: grey;
+  padding: 10px;
+  text-overflow: ellipsis;
+}
+input::-moz-placeholder {
+  color: grey;
+  padding: 10px;
+  text-overflow: ellipsis;
+}
+input:-ms-input-placeholder {
+  color: grey;
+  padding: 10px;
+  text-overflow: ellipsis;
+}
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+button:active, button:focus {
+  outline: none !important;
+}
+
+button::-moz-focus-inner {
+  border: 0 !important;
+}
+
+button {
+  cursor: pointer;
+}
+button span {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  outline: none !important;
+}
+
+video:active, video:focus {
+  outline: none !important;
+}
+
+ul li {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  cursor: default;
+  font-weight: bold;
+}
+
+p, span {
+  cursor: default;
+}
+
+html:not(.touch-screen)::-webkit-scrollbar-track, html:not(.touch-screen) *::-webkit-scrollbar-track {
+  background: #fff;
+  border-radius: 6px;
+  width: 6px;
+}
+
+html:not(.touch-screen)::-webkit-scrollbar-thumb, html:not(.touch-screen) *::-webkit-scrollbar-thumb {
+  background: rgb(41, 47, 54);
+  border-radius: 6px;
+  width: 6px;
+}
+
+html:not(.touch-screen)::-webkit-scrollbar, html:not(.touch-screen) *::-webkit-scrollbar {
+  width: 6px;
+  border-radius: 6px;
+  height: 6px;
+}
+
+/*# sourceMappingURL=style.css.map */
