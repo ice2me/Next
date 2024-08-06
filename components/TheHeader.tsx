@@ -1,11 +1,16 @@
-import Link from "next/link";
+import {Navigation} from "@/components/Navigation"
 
-export default function TheHeader() {
+const navItems = [
+	{label: 'Home', href: '/'},
+	{label: 'About', href: '/about'},
+	{label: 'Blog', href: '/blog'}
+]
+
+const TheHeader = () => {
 	return (
 		<header className='header'>
-			<Link href='/'>Home</Link >
-			<Link href='/about'>About</Link >
-			<Link href='/blog'>Blog</Link >
+			<Navigation navLinks={navItems} />
 		</header >
 	)
 }
+export {TheHeader}
